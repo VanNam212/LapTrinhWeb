@@ -5,32 +5,36 @@
     <meta charset="utf-8">
     <title>Bài tập 2</title>
     <style>
-        /* table, td, th{
-            border: 1px soli;
-        } */
-        table{
+        table {
             border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 50%;
+        }
+
+        thead {
+            text-align: center;
+            vertical-align: middle;
+            background-color: rgb(214, 132, 104);
         }
     </style>
 </head>
 
 <body>
-    <table style="width: 50%;">
-        <thead style="text-align: center; vertical-align: middle; background-color: rgb(247, 197, 181);">
+    <table>
+        <thead>
             <tr style="height: 30px;">
                 <td colspan="2" style="color: darkblue; font-weight: bolder; border: none;">NGÔN NGỮ HTML</td>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td style="background-color: rgb(148, 172, 201); width: 30%; height: 600px;">
-                    <iframe src="ChiMuc.htm" style="height: 600px; width: 100%; border: none;"></iframe>
-                </td>
-                <td style="width: 30%; height: 620px;">
-                    <iframe src="" style="height: 620px; width: 100%; border: none;" name="noidung"></iframe>
-                </td>
-            </tr>
-        </tbody>
+        <tr>
+            <td style="background-color: rgb(148, 172, 201); width: 30%; height: 600px;">
+                <iframe src="ChiMuc.html" style="height: 600px; width: 100%; border: none;"></iframe>
+            </td>
+            <td style="width: 30%; height: 620px;">
+                <iframe src="" style="height: 620px; width: 100%; border: none;" name="noidung"></iframe>
+            </td>
+        </tr>
     </table>
 </body>
+
 </html>
